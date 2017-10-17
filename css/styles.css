@@ -1,37 +1,37 @@
 html {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 div {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 footer {
   position: fixed;
+  background-color: green;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: green;
-  color: white;
   text-align: center;
 }
 
 header {
-  overflow: hidden;
-  background-color: orange;
   position: fixed;
+  background-color: orange;
+  left: 0;
   top: 0;
   width: 100%;
+  text-align: center;
 }
 
-.red {
+.left {
   background-color: red;
 }
 
-.blue {
-  background-color: blue;
+.right {
+  background-color: grey;
 }

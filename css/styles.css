@@ -1,0 +1,37 @@
+html {
+  height: 100vh;
+}
+
+body {
+  height: 100vh;
+}
+
+div {
+  height: 100vh;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: green;
+  color: white;
+  text-align: center;
+}
+
+header {
+  overflow: hidden;
+  background-color: orange;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
